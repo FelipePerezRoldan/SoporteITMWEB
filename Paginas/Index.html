@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menú Principal</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link href="Estilos/css/all.min.css" rel="stylesheet" />
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" id="dvMenu">
+                    <!-- Cargar menú -->
+                    <h2 class="text-center">Menú Principal</h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Opciones</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <button type="button" id="btnTecnicos" class="btn btn-block btn-lg btn-primary" onclick="window.location.href='Tecnico.html'">TÉCNICOS</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="button" id="btnUsuarios" class="btn btn-block btn-lg btn-primary" onclick="window.location.href='Usuario.html'">USUARIOS</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="button" id="btnEquipos" class="btn btn-block btn-lg btn-primary" onclick="window.location.href='Equipo.html'">EQUIPOS</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
