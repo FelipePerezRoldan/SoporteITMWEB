@@ -47,8 +47,10 @@ function Actualizar() {
 }
 
 function Eliminar() {
-    EjecutarComando("DELETE", "EliminarTecnico");
+    let documento = $("#txtDocumento").val();
+    EjecutarComando("DELETE", "EliminarTecnico?DocumentoTecnico=" + documento);
 }
+
 
 
 async function Consultar() {
