@@ -13,7 +13,8 @@ function Actualizar() {
 }
 
 function Eliminar() {
-    EjecutarComando("DELETE", "EliminarUsuario");
+    let documento = $("#txtDocumentoUsuario").val();
+    EjecutarComando("DELETE", "EliminarUsuario?DocumentoUsuario=" + documento);
 }
 
 async function Consultar() {
