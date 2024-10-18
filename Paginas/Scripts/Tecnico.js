@@ -69,7 +69,7 @@ async function Consultar() {
         $("#txtEmail").val(Resultado.Email);
         $("#txtTelefono").val(Resultado.Telefono);
         $("#txtEspecialidad").val(Resultado.Especialidad);
-        $("#txtDocumento").val(Resultado.Documento);
+        $("#txtDocumento").val(Resultado.DocumentoTecnico);
     } catch (error) {
         $("#dvMensaje").html(error);
     }
